@@ -483,9 +483,8 @@ void backToPosition()
   }
   else
   {
-    prStr('nothing to do');
+    prStr('no bumper passed');
   }
-  
 }
 
 void turnByDegree()
