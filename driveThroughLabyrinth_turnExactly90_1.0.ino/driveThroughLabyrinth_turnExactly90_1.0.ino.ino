@@ -159,7 +159,9 @@ void loop()
 
  // stopFor(stopTime);
 
+  packShot();
+
   turnByDegree();
 
-  stopFor(99000);
+  //stopFor(99000);
 }

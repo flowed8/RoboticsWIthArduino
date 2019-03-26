@@ -32,7 +32,7 @@ void stopFor(int timeForStop){
   
 }
 
- void prInt(double text){
+ void prInt(int text){
 
   lcd.backlight();
   lcd.setCursor(0, line);
@@ -44,6 +44,17 @@ void stopFor(int timeForStop){
 
 }
 
+ void prDob(double text){
+
+  lcd.backlight();
+  lcd.setCursor(0, line);
+  lcd.print(text);
+  
+  line++;
+
+  //if (line == 4) newDis();
+
+}
 void newDis(){
   lcd.clear();
   line = 0;
